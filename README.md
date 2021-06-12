@@ -1,1 +1,1 @@
-# Ping-flexbox-vanillajs-page
+# ping-coming-soon-page-master
