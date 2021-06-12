@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+/* ----- HEADER ----- */
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo{
+    margin: 50px;
+    text-transform: uppercase;
+}
+
+.main-subtitle{
+    color: hsl(0, 0%, 59%);
+    margin-top: 40px;
+    font-size: 40px;
+}
+
+.main-subtitle .strong{
+    color: black;
+    font-weight: bold;
+}
+
+.subscribe{
+    margin-top: 15px;
+}
+/* --- END OF HEADER --- */
+
+
+/* ----- FORM ----- */
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 30px 0px 60px 0px;
+}
+
+.email-form{
+    border-radius: 30px;
+    padding: 15px 150px 15px 15px;
+    margin: 5px;
+    border: 2px solid #c2d3ff;
+}
+
+.btn-blue{
+    border-radius: 30px;
+    padding: 15px 50px;
+    margin: 5px;
+    background-color: hsl(223, 87%, 63%);
+    color: white;
+    border: none;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.274);
+}
+/* --- END OF FORM --- */
+
+/* ----- IMAGE SECTION ----- */
+
+.bg-hero{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.container{
+    width: 800px;
+    height: 500px;
+}
+
+.image-hero{
+    width: 100%;
+}
+/* --- END OF IMAGE SECTION --- */
+
+.icons{
+    font-size: 20px;
+    text-align: center;
+    color: hsl(223, 87%, 63%);
+
+}
+
+.icons li{
+    display: inline-block;
+    margin: 20px;
+}
+
+.social p{
+    text-align: center;
+    color: hsl(0, 0%, 59%);
+    margin: 15px;
+}
+
+.attribution {
+    font-size: 11px; text-align: center; 
+    margin: 10px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
+
+
+/* MEDIA QUERIES */
+@media (max-width: 375px) { /*breakpoint*/
+    .main{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main .logo{
+        margin: 50px;
+    }
+
+    .main .main-subtitle{
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .wrapper .email-form{
+        text-align: center;
+        padding: 15px 65px;
+    }
+
+    .wrapper .btn-blue{
+        text-align: center;
+        padding: 15px 113px;
+
+    }
+
+    .bg-hero{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
