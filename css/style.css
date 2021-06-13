@@ -60,6 +60,7 @@
     color: white;
     border: none;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.274);
+    cursor: pointer;
 }
 /* --- END OF FORM --- */
 
@@ -108,6 +109,9 @@
     color: hsl(228, 45%, 44%); 
 }
 
+.email.error{
+    border-color: hsl(354, 100%, 66%);
+}
 
 /* MEDIA QUERIES */
 @media (max-width: 375px) { /*breakpoint*/
