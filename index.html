@@ -27,9 +27,13 @@
   <!-- FORM -->
   <section>
     <form class="wrapper">
-      <input class="email-form" type="email" placeholder="Your email address" id="email" name="email">
-      <span id="d" class="email-control" onclick="alterStyle()"></span>
-      <button class="btn-blue" type="submit">Notify Me</button>
+      <div class="form-group">
+        <input class="email-form" type="email" placeholder="Your email address" id="email" name="email" aria-label="show-error">
+        <span class="email-control"></span>
+      </div>
+      <div class="form-group">
+        <button class="btn-blue" type="submit">Notify Me</button>
+      </div>
     </form>
   </section>
   <!-- END OF FORM -->
