@@ -52,6 +52,10 @@
     border: 2px solid #c2d3ff;
 }
 
+.form-group .error {
+    border-color: #ff5263;
+}
+
 .btn-blue{
     border-radius: 30px;
     padding: 15px 50px;
@@ -61,6 +65,16 @@
     border: none;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.274);
     cursor: pointer;
+}
+
+.email-control{
+    color: red;
+    display: none;
+    margin-left: 20px;
+}
+
+.error-active{
+    display: block;
 }
 /* --- END OF FORM --- */
 
@@ -82,6 +96,7 @@
 }
 /* --- END OF IMAGE SECTION --- */
 
+/* --- FOOTER --- */
 .icons{
     font-size: 20px;
     text-align: center;
@@ -108,10 +123,8 @@
 .attribution a {
     color: hsl(228, 45%, 44%); 
 }
+/* --- END OF FOOTER --- */
 
-.email.error{
-    border-color: hsl(354, 100%, 66%);
-}
 
 /* MEDIA QUERIES */
 @media (max-width: 375px) { /*breakpoint*/
